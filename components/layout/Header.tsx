@@ -13,6 +13,10 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const whatsappLink = "https://wa.me/917977288350?text=Hi,%20I'm%20interested%20in%20renting%20a%20car.";
+<!-- Event snippet for Whatsapp Button conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11098887425/_C5xCM6K5_IYEIGqrqwp'});
+</script>
 
   // Ensure component is mounted before using browser APIs
   useEffect(() => {
